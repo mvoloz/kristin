@@ -36,7 +36,7 @@ module Kristin
       opts.push("--fit-width #{@options[:fit_width]}") if @options[:fit_width]
       opts.push("--fit-height #{@options[:fit_height]}") if @options[:fit_height]
       opts.push("--optimize-text #{@options[:optimize_text]}") if @options[:optimize_text]
-      opts.push("--embed-font #{options[:embed_font]}") if @options[:embed_font]
+      opts.push("--embed-font #{@options[:embed_font]}") if @options[:embed_font]
       opts.join(" ")
     end
 
